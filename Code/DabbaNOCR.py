@@ -41,5 +41,5 @@ def dabbaNOCR(imagePath):
     # print(output)
     
     # Show the image with the bounding boxes
-    # plt.show()
+    plt.show()
     return output

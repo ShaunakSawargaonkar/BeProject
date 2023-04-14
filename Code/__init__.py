@@ -11,7 +11,7 @@ imagePath='Images\image2.jpg'
 # 1 Video to frame
 NoOfFrames=videoToFrame(VideoLoc,7)
 
-print("vide to frame done")
+print("video to frame done")
 
 # 2 Crop the frame
 folder_path = "ResultFrame"
@@ -23,8 +23,10 @@ for filename in os.listdir(folder_path):
         imagepath = os.path.join(folder_path, filename)
         cropImage(imagepath,ctr)
 
-# 3 Cropped frame to text
+print("Frames cropped till ticker tape")
 
+
+# 3 Cropped frame to text
 folder_path = "CroppedImages"
 
 FinalString=" "
@@ -34,33 +36,8 @@ for filename in os.listdir(folder_path):
         imagepath = os.path.join(folder_path, filename)
         FinalString+=dabbaNOCR(imagepath)
         
-print("YPPPPPPPPPPPP\n" + FinalString)
+print("Final Output Text\n" + FinalString)
 
 
 
 
-
-
-
-# # 1 Video to frame
-
-# NoOfFrames=videoToFrame(VideoLoc,25)
-
-# # 2 Crop the frames
-
-# ctr=0
-# for filename in os.listdir(folder_path):
-#      if filename.endswith(".jpg"):
-#         ctr+=1
-#         imagepath = os.path.join(folder_path, filename)
-#         cropImage(imagepath,ctr)
-
-# # FinalString=" "
-
-# # for filename in os.listdir(folder_path):
-# #     if filename.endswith(".jpg"):
-# #         imagepath = os.path.join(folder_path, filename)
-# #         FinalString+=dabbaNOCR(imagepath)
-        
-# # print("YPPPPPPPPPPPP\n" + FinalString)
-    
