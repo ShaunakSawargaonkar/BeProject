@@ -5,11 +5,11 @@ import os
 from PIL import Image
 
 
-VideoLoc='C:/Users/HP/Desktop/Working EasyOCR_for_boundingbox_nd_Recognition/Video/video19.mp4'
+VideoLoc='C:/Users/HP/Desktop/Working EasyOCR_for_boundingbox_nd_Recognition/Video/Video1.mp4'
 imagePath='Images\image2.jpg'
 
 # 1 Video to frame
-NoOfFrames=videoToFrame(VideoLoc,25)
+NoOfFrames=videoToFrame(VideoLoc,7)
 
 print("vide to frame done")
 

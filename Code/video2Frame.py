@@ -1,7 +1,7 @@
 import cv2
 
 def videoToFrame(videoPath,time_interval):
-    videoPath='C:/Users/HP/Desktop/Working EasyOCR_for_boundingbox_nd_Recognition/Video/video19.mp4'
+    # videoPath='C:/Users/HP/Desktop/Working EasyOCR_for_boundingbox_nd_Recognition/Video/video19.mp4'
     video = cv2.VideoCapture(videoPath)
 
     # Define the time interval in seconds

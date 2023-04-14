@@ -7,7 +7,7 @@ import matplotlib.patches as patches
 def dabbaNOCR(imagePath):
     # TODO
     
-    print("from dabba here")
+    # print("from dabba here")
     # Load the EasyOCR reader with the English language
     reader = easyocr.Reader(['en'])
 
